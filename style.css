@@ -90,6 +90,7 @@ table, td{
 }
 #textleft{
 	text-align: left;
+	position: relative;
 	font-size: 130%;
 }
 #textright{
