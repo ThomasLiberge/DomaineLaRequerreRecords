@@ -1,8 +1,17 @@
 body{	
-	font-family: 'Lato', sans-serif;
 	background-color: white;
-	border: 20px solid #0C3646;
+	border-top: 20px solid #0C3646;
+	margin-bottom: 20px;
 	padding-top: 30px;
+}
+.siteBorder{
+	position: fixed;
+	top : 0;
+	left : 0;
+	height : calc(100% );
+	width : calc(100% );
+	border : 20px solid #0C3646;
+	border-top : none;
 }
 h1,p {
 	text-align : center;
