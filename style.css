@@ -1,11 +1,31 @@
 body{	
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	background-color: white;
 	border: 20px solid #0C3646;
 	padding-top: 30px;
 }
 h1,p {
 	text-align : center;
+}
+.resume {
+    color: #070707;
+    text-decoration: none;
+    font-family: lato;
+    -webkit-transition: color .1s ease-in-out;
+    -moz-transition: color .1s ease-in-out;
+    -ms-transition: color .1s ease-in-out;
+    -o-transition: color .1s ease-in-out;
+    transition: color .1s ease-in-out;    
+}
+#homepage {
+    color: #070707;
+    text-decoration: none;
+    font-family: lato;
+    -webkit-transition: color .1s ease-in-out;
+    -moz-transition: color .1s ease-in-out;
+    -ms-transition: color .1s ease-in-out;
+    -o-transition: color .1s ease-in-out;
+    transition: color .1s ease-in-out;    
 }
 .line {
 	border-bottom: 1px solid #E5E5E5;
@@ -18,21 +38,30 @@ h1,p {
 	/*width : 2940px;*/
 	margin :auto;
 }
-#textleftHome{
-	text-align: left;
-	font-size: 130%;
+#espace{
+	height : 90px;
 }
-#textrightHome{
-	text-align: right;
-	font-size: 130%;
+.description{
+	position : absolute;
+	width : 290px;
+	margin-left : -165px;
 	margin-top: -25px;
+}
+.titleDescription{
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size : 170%;
+	text-align : left;
 }
 #paragrapheHome {
 	font-size: 130%;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
 }
 .paragraphePages{
 	font-size: 130%;
-	text-align: justify;
+	font-family : 'Lato';
+	text-align: left;
 	margin-left: 5px;
 }
 .titre{
@@ -41,7 +70,7 @@ h1,p {
 }
 table, td{
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 0;
 	background-color: white;
 	color: black;
 	border: 5px solid white;
@@ -57,16 +86,23 @@ table, td{
 #textright{
 	text-align: right;
 	font-size: 130%;
+	margin-top: -35px;
 }
 .VrProjects{
 	height: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
 }
 
 .ArProjects{
 	height: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
 }
 .GraphProjects{
 	height: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
 }
 #footer{
 	margin-top: 100px;
@@ -77,8 +113,8 @@ table, td{
 	width : 100%;
 }
 #footer2{
-	position:absolute;
-	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-top: 70px;
 	text-align: center;
 	background-color :white;
 	color : black;
