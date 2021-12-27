@@ -1,12 +1,20 @@
 body{
 	background-color: white;
-	border-top: 20px solid #000000;
+	
 	margin-bottom: 20px;
 	padding-top: 30px;
 }
 .responsive {
   max-width: 100%;
   height: auto;
+}
+.siteBorderTop{
+	position: fixed;
+	top : 0;
+	right : 0;
+	width : 100%;
+	border : 20px solid #000000;
+	border-top : none;
 }
 .siteBorderRight{
 	position: fixed;
@@ -38,26 +46,30 @@ body{
 }
 
 #titleHome {
-	font-family: "Lato";
+	font-family: "Cormorant Garamond";
 	font-weight: 700;
 }
 
 #paragrapheHome {
 	margin: 30px;
-	font-family: "Lato";
+	font-family: "Cormorant Garamond";
 	font-weight: 300;
 	font-size: 20px;
 }
 #photDescritpion {
-	font-family: "Lato";
-	font-size: 10px;
-	font-style: italic;;
+	font-family: "Cormorant Garamond";
+	font-size: 20px;
 	font-weight: 100;
+	text-align: left;
 }
 
 img {
 	width: 100%;
 	height: auto;
+}
+
+#agmic{
+	max-width: 400px;
 }
 
 @media (max-width: 768px) {
@@ -73,10 +85,23 @@ img {
 
 	body {
 		background-color: green;
+		border-top: 10px solid #000000;
 	}
 
 	.espace {
 		margin: 20px;
+	}
+	.siteBorderTop{
+		border : 5px solid #000000;
+	}	
+	.siteBorderRight{
+		border : 5px solid #000000;
+	}	
+	.siteBorderLeft{
+		border : 5px solid #000000;
+	}
+	.siteBorderBottom{
+		border : 5px solid #000000;
 	}
 
 }
