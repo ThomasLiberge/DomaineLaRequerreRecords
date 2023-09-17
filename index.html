@@ -12,6 +12,23 @@
 		body{
 		font-family: "Cormorant Garamond";
 		}
+		img {
+    	max-width: 350px;
+		}
+		.wrapper {
+        max-width: 960px;
+        margin: 2em auto;
+      	}
+		@media screen and (min-width: 600px) {
+        img {
+        width: 100%;
+    	}
+        .wrapper {
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          column-gap: 5%;
+        }
+        }
 	</style>
 </head>
 
@@ -21,6 +38,7 @@
 		<p id="paragraphethomasliberge">Je suis vigneron en vendée sur le village de l'ile d'olonne. 
 		<br />Je fais le choix d'une agriculture paysanne et agro écologique. Le but étant de structurer les sols biologiquement avec l'aide de la biodiversité qui entoure mes parcelles.
 		<br />Dans la continuité de mon travail à la vigne les vinifications sont naturelles. 
-		<br />Vous pouvez me contacter au 0604036754 ou <a href="https://www.instagram.com/la_requerre/?hl=fr" target="_blank">Instagram</a></p>
+		<br />Vous pouvez me contacter au 0604036754 ou sur <a href="https://www.instagram.com/la_requerre/?hl=fr" target="_blank">Instagram</a>
+		<br /><img id="ThomasLiberge" src="images/FromVinoToDisco.jpg" alt="FromVinoToDisco" ></p>
   </body>
 </html>
